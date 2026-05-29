@@ -6,4 +6,5 @@
   --color-icon-background: rgba(128, 128, 128, 0.196);
   --color-text-color: hsl(217, 12%, 63%);
   --color-button-background: hsl(25, 97%, 53%);
+  --color-selected-color: hsl(25, 81%, 41%);
 }

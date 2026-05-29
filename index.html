@@ -15,6 +15,7 @@
   >
     <div
       class="w-80 h-80 bg-container-background rounded-2xl p-6 flex flex-col gap-5"
+      id="rating-card"
     >
       <div>
         <img
@@ -58,10 +59,32 @@
       </div>
       <div>
         <button
-          class="w-full h-8 bg-button-background rounded-2xl text-xs font-bold tracking-wide hover:bg-white cursor-pointer"
+          class="w-full h-8 bg-button-background rounded-2xl text-xs font-bold tracking-wide hover:bg-white cursor-pointer submit-btn"
         >
           SUBMIT
         </button>
+      </div>
+    </div>
+    <div
+      class="w-80 h-80 bg-container-background rounded-2xl p-6 flex-col gap-5 items-center hidden"
+      id="thankyou-card"
+    >
+      <div>
+        <img src="./src/assets/illustration-thank-you.svg" />
+      </div>
+      <div>
+        <p
+          class="text-selected-color bg-icon-background px-5 py-1.5 rounded-3xl text-xs"
+        >
+          You selected <span class="show-number"></span> out of 5.
+        </p>
+      </div>
+      <div class="text-center">
+        <h1 class="text-white text-2xl font-medium">Thank you!</h1>
+        <p class="text-white text-xs/5 opacity-50 mt-2">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
       </div>
     </div>
     <script type="module" src="/src/main.js"></script>
