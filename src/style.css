@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-body-background: hsl(216, 12%, 8%);
+  --color-container-background: hsl(213, 19%, 18%);
+  --color-icon-background: rgba(128, 128, 128, 0.196);
+  --color-text-color: hsl(217, 12%, 63%);
+  --color-button-background: hsl(25, 97%, 53%);
+}
